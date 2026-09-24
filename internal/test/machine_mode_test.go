@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/smm-h/dirstat/internal/testutil"
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 )
 
 // The machine-output surface is the framework's: `--json` enters machine mode,

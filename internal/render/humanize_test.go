@@ -3,7 +3,7 @@ package render
 import (
 	"testing"
 
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 )
 
 func TestFormatSize(t *testing.T) {

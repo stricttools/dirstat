@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/smm-h/dirstat/internal/testutil"
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 )
 
 // The declaration regime (strictcli contract §23, §24.9): every flag and the

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/smm-h/dirstat/internal/scan"
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 )
 
 func fullSelection() Selection {

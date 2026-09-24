@@ -3,7 +3,7 @@ package test
 import (
 	"encoding/json"
 	"flag"
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 	"os"
 	"path/filepath"
 	"regexp"

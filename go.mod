@@ -9,7 +9,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.24
 	github.com/smm-h/go-toml-edit v0.2.2
 	github.com/smm-h/strictcli/go v0.33.0
-	github.com/smm-h/stricttest/go v0.1.1
+	github.com/stricttools/testisolation/go v0.3.0
 	golang.org/x/term v0.44.0
 )
 

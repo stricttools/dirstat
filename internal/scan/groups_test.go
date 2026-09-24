@@ -1,7 +1,7 @@
 package scan
 
 import (
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 	"reflect"
 	"testing"
 )

@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 	"strings"
 	"testing"
 

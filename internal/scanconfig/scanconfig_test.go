@@ -1,7 +1,7 @@
 package scanconfig
 
 import (
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 	"os"
 	"path/filepath"
 	"reflect"
