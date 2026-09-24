@@ -1,13 +1,17 @@
 {
   "version": 1,
   "files": {
-    "VERSION": "71015c979ccb0fc8a0be7ca0ae83046ab045cdc2c8faa09fb2f0f7e440f9b4a6",
-    ".github/workflows/ci.yml": "a4eb37a8927ffda2aa646e45ac6f849648a53ea7fb4efe0df4fda3c9946c28f9",
+    "VERSION": "a466ef209f5c3aee5ff0c702e2e9d5cced4783d2a655e8ab66330f21a5557b3f",
+    ".github/workflows/ci.yml": "1d90024ebaf204bda343df5f10da196e6a5f3fbaaed00fcc98e336113345e0dc",
     ".goreleaser.yml": "a028e8e5c368c11dd22915732bdc4f914674cc6bd478db248ee0cf65983b9a63",
-    ".github/workflows/publish.yml": "dba0ecc806143bdea51c0d2b7870d3302c77dff7d7405aec6ceaae31a75631ed",
-    "CHANGELOG.md": "65414291e7069e9e273cad4aff29e12e4695671ea3df5f5d8d550aa19b459047",
-    ".gitignore": "f48dd7e3bcf3f8979eb30fb13f01ba2032a29c377baa4354a55bbfce45b260bd",
-    ".rlsbl/changes/unreleased.jsonl": "69553c35037929b0929e50e5f7251a22fd088d63732fc7f9c76115ab33a7d768",
+    ".github/workflows/publish.yml": "573e54f2303f4e30870688f17300e27c396dd1751b27dc4a9bc20f95fe4036cd",
+    "CHANGELOG.md": "48724416651268d887db3d5dfe2f2b7457f955a4c7d3d7f99ef7bcd40b384275",
+    ".gitignore": "8412f96ecf794f97c231e7e3728c17132bc3e01d392bb253d6e616e6754dfc7a",
+    ".rlsbl/changes/unreleased.jsonl": "755f77a05bd3753e6b52c778dc4c3740b173a5c264788591a44a6f90c595a8db",
+    "experiments/.gitignore": "315847fcdb038a16ecf2773e67ed8c8fe88479b37062d7a72ed1732f09062633",
+    "screenshots/.gitignore": "315847fcdb038a16ecf2773e67ed8c8fe88479b37062d7a72ed1732f09062633",
+    "experiments/go.mod": "559c21464c216881d2a25931481a9d4fb2f4df2ebcf9425642252d56a2fc1300",
+    "screenshots/go.mod": "559c21464c216881d2a25931481a9d4fb2f4df2ebcf9425642252d56a2fc1300",
     ".rlsbl/lint/go.toml": "807d5cf760baad6d571a5bfd43cb163efe356f7462ba9f1918d72de45f62339f"
   }
 }

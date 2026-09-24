@@ -2,6 +2,8 @@ module github.com/smm-h/dirstat
 
 go 1.25.7
 
+toolchain go1.26.6
+
 require (
 	github.com/gabriel-vasile/mimetype v1.4.13
 	github.com/go-git/go-billy/v5 v5.9.0
