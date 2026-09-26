@@ -56,7 +56,7 @@ Files by Format
 
 :-: table-commands
 
-Every flag is documented in `dirstat scan --help` and in the generated [.stricttools/docs/cli-scan.md](.stricttools/docs/cli-scan.md).
+Every flag is documented in `dirstat scan --help` and in the generated [stricttools/docs/cli-scan.md](stricttools/docs/cli-scan.md).
 
 ## Grouping methods
 

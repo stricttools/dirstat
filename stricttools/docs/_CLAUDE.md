@@ -5,7 +5,7 @@ title = "CLAUDE.md"
 
 :-: var key="project.description"
 
-The authoritative specification is `.stricttools/docs/spec.md` (numbered requirements R1–R47).
+The authoritative specification is `stricttools/docs/spec.md` (numbered requirements R1–R47).
 
 ## Project structure
 
