@@ -7,3 +7,7 @@ meaning = "This project: a Go CLI that scans a directory tree and reports file c
 [[accepted]]
 word = "mjs"
 meaning = "The file extension of JavaScript ES module files, which the canonical grouping merges into js."
+
+[[accepted]]
+word = "rlsbl"
+meaning = "The release orchestration tool that manages this project's releases and changelog (.rlsbl/)."
