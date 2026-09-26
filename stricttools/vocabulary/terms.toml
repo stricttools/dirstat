@@ -1,1 +1,5 @@
 format_version = 1
+
+[[accepted]]
+word = "dirstat"
+meaning = "This project: a Go CLI that scans a directory tree and reports file counts and sizes grouped by type in a table or as JSON."
