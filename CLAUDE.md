@@ -4,7 +4,7 @@
 
 Fast, single-binary directory statistics CLI: every file under a tree grouped by format, with counts, sizes, and lines of code, as a colored terminal table or as JSON
 
-The authoritative specification is `.stricttools/docs/spec.md` (numbered requirements R1–R47).
+The authoritative specification is `stricttools/docs/spec.md` (numbered requirements R1–R47).
 
 ## Project structure
 

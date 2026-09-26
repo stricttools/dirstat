@@ -57,7 +57,7 @@ Files by Format
 | --- | --- |
 | `scan` | Summarize the files under a directory tree, grouped by format, with counts, sizes, and lines of code as terminal tables or JSON. |
 
-Every flag is documented in `dirstat scan --help` and in the generated [.stricttools/docs/cli-scan.md](.stricttools/docs/cli-scan.md).
+Every flag is documented in `dirstat scan --help` and in the generated [stricttools/docs/cli-scan.md](stricttools/docs/cli-scan.md).
 
 ## Grouping methods
 

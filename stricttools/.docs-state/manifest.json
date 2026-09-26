@@ -2,7 +2,7 @@
   "schema_version": 2,
   "name": "dirstat",
   "slug": "dirstat",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Fast, single-binary directory statistics CLI: every file under a tree grouped by format, with counts, sizes, and lines of code, as a colored terminal table or as JSON",
   "language": "go",
   "base_url": "https://smmh.dev/dirstat",
@@ -669,10 +669,31 @@
     }
   ],
   "posts": [],
-  "last_gen": "2026-09-15T20:33:33.637494+00:00",
+  "last_gen": "2026-09-26T20:16:23.700786+00:00",
   "theme": "minimal",
   "vocabulary": {
-    "accepted": [],
+    "accepted": [
+      {
+        "word": "dirstat",
+        "aliases": []
+      },
+      {
+        "word": "mjs",
+        "aliases": []
+      },
+      {
+        "word": "rlsbl",
+        "aliases": []
+      },
+      {
+        "word": "saferm",
+        "aliases": []
+      },
+      {
+        "word": "unicode",
+        "aliases": []
+      }
+    ],
     "rejected": []
   }
 }
