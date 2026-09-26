@@ -58,7 +58,7 @@
       "default": true
     }
   ],
-  "repo": "https://github.com/smm-h/dirstat",
+  "repo": "https://github.com/stricttools/dirstat",
   "topology": {
     "slug": "dirstat",
     "docs_base": "https://smmh.dev",
