@@ -15,3 +15,7 @@ meaning = "The release orchestration tool that manages this project's releases a
 [[accepted]]
 word = "saferm"
 meaning = "A sibling Go CLI for audited file deletion whose repository layout and TestMain test pattern dirstat follows."
+
+[[accepted]]
+word = "unicode"
+meaning = "The --style value that draws table borders with Unicode box-drawing characters, as opposed to ascii."
