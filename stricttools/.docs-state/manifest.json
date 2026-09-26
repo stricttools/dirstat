@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "name": "dirstat",
   "slug": "dirstat",
   "version": "0.6.1",
@@ -670,5 +670,9 @@
   ],
   "posts": [],
   "last_gen": "2026-09-15T20:33:33.637494+00:00",
-  "theme": "minimal"
+  "theme": "minimal",
+  "vocabulary": {
+    "accepted": [],
+    "rejected": []
+  }
 }
