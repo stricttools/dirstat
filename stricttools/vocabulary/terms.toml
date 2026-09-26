@@ -11,3 +11,7 @@ meaning = "The file extension of JavaScript ES module files, which the canonical
 [[accepted]]
 word = "rlsbl"
 meaning = "The release orchestration tool that manages this project's releases and changelog (.rlsbl/)."
+
+[[accepted]]
+word = "saferm"
+meaning = "A sibling Go CLI for audited file deletion whose repository layout and TestMain test pattern dirstat follows."
