@@ -2,3 +2,4 @@
 {"format_version":1,"id":"18d85290176fe9b9454a834081ad45ec9009345ee83aa280","commits":["a24fd3ed6e023f8c1e09cc7ecf90de9aa02f8b59"],"user_facing":false}
 {"format_version":1,"id":"18d8f83ac61bdf1423fac669dac349a7b8c8384371204828","commits":["cc9e5903d47b4d8749884529c97d5c5c6b94e8dd"],"user_facing":false}
 {"format_version":1,"id":"18d8fc79fd336c21f8cbdb49a83a49a09e728b2d983db337","commits":["e4f753990f28839556e4cd14c8a772bb953093b0"],"user_facing":false}
+{"format_version":1,"id":"18da26c1141f8f8289850a85aa8d4bffb5b4f94899298ebb","commits":["88818590eb151c192506a23ce0a4c7c5a7bdbe6d"],"user_facing":true,"description":"**The Go module path moved to `github.com/stricttools/dirstat`.** The repository lives in the stricttools organization, so `github.com/smm-h/dirstat` is no longer this module's path: install with `go install github.com/stricttools/dirstat@v0`, and a program importing its packages changes its imports and `require` to the new path.","type":"breaking"}
