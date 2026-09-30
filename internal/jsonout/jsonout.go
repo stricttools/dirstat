@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/smm-h/dirstat/internal/scan"
+	"github.com/stricttools/dirstat/internal/scan"
 	"github.com/smm-h/strictcli/go/strictcli"
 )
 

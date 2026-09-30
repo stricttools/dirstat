@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smm-h/dirstat/internal/scan"
+	"github.com/stricttools/dirstat/internal/scan"
 	"github.com/stricttools/testisolation/go/hygiene"
 )
 

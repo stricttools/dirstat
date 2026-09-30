@@ -7,8 +7,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/mattn/go-runewidth"
-	"github.com/smm-h/dirstat/internal/config"
-	"github.com/smm-h/dirstat/internal/scan"
+	"github.com/stricttools/dirstat/internal/config"
+	"github.com/stricttools/dirstat/internal/scan"
 )
 
 func testResult() *scan.Result {

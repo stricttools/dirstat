@@ -1,4 +1,4 @@
-module github.com/smm-h/dirstat
+module github.com/stricttools/dirstat
 
 go 1.25.7
 

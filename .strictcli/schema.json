@@ -80,7 +80,7 @@
       "connections": []
     }
   },
-  "project_id": "github.com/smm-h/dirstat",
+  "project_id": "github.com/stricttools/dirstat",
   "name": "dirstat",
   "version": "0.6.2",
   "help": "Fast, single-binary directory statistics CLI: every file under a tree grouped by format, with counts, sizes, and lines of code, as a colored terminal table or as JSON",

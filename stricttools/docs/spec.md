@@ -14,7 +14,7 @@ requirement is numbered (R1, R2, ...) so audits can address them individually.
 
 ## 1. Project shape
 
-- R1. Go module `github.com/smm-h/dirstat`, Go directive `go 1.25.7`, flat
+- R1. Go module `github.com/stricttools/dirstat`, Go directive `go 1.25.7`, flat
   `package main` at the repo root (no `cmd/`), matching safegit/saferm layout.
 - R2. CLI built on `github.com/smm-h/strictcli/go/strictcli`, unpinned latest.
   `.strictcli/schema.json` committed.

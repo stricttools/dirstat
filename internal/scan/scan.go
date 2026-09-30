@@ -12,7 +12,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/smm-h/dirstat/internal/classify"
+	"github.com/stricttools/dirstat/internal/classify"
 )
 
 // Values for Options.Ignored.

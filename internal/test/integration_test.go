@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smm-h/dirstat/internal/testutil"
+	"github.com/stricttools/dirstat/internal/testutil"
 )
 
 var dirstatBinary string

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/smm-h/dirstat/internal/config"
+	"github.com/stricttools/dirstat/internal/config"
 )
 
 // palette holds ready-to-print ANSI sequences. When disabled, every field is

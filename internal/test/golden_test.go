@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/smm-h/dirstat/internal/testutil"
+	"github.com/stricttools/dirstat/internal/testutil"
 )
 
 var update = flag.Bool("update", false, "rewrite golden files from current output")

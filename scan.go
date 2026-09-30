@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/smm-h/dirstat/internal/config"
-	"github.com/smm-h/dirstat/internal/jsonout"
-	"github.com/smm-h/dirstat/internal/render"
-	"github.com/smm-h/dirstat/internal/scan"
-	"github.com/smm-h/dirstat/internal/scanconfig"
+	"github.com/stricttools/dirstat/internal/config"
+	"github.com/stricttools/dirstat/internal/jsonout"
+	"github.com/stricttools/dirstat/internal/render"
+	"github.com/stricttools/dirstat/internal/scan"
+	"github.com/stricttools/dirstat/internal/scanconfig"
 	"github.com/smm-h/strictcli/go/strictcli"
 	"golang.org/x/term"
 )

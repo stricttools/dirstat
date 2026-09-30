@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smm-h/dirstat/internal/testutil"
+	"github.com/stricttools/dirstat/internal/testutil"
 )
 
 // TestDeterminism verifies that repeated runs over the same tree produce

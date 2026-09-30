@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/smm-h/dirstat/internal/scan"
+	"github.com/stricttools/dirstat/internal/scan"
 	tomledit "github.com/smm-h/go-toml-edit"
 )
 

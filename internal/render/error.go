@@ -3,7 +3,7 @@ package render
 import (
 	"fmt"
 
-	"github.com/smm-h/dirstat/internal/config"
+	"github.com/stricttools/dirstat/internal/config"
 )
 
 // FormatError renders one stderr error line: "error: <message>\n". When

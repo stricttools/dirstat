@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smm-h/dirstat/internal/testutil"
+	"github.com/stricttools/dirstat/internal/testutil"
 )
 
 // TestDefaultExcludes covers the curated built-in --exclude default list

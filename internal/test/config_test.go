@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smm-h/dirstat/internal/testutil"
+	"github.com/stricttools/dirstat/internal/testutil"
 )
 
 // writeConfigFile writes a TOML scan config into dir and returns its path.

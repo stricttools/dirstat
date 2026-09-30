@@ -10,7 +10,7 @@ It is built for developers and agents sizing up an unfamiliar repository, and fo
 ## Quick start
 
 ```
-go install github.com/smm-h/dirstat@latest
+go install github.com/stricttools/dirstat@v0
 ```
 
 Summarize the current directory:
