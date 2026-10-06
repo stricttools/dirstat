@@ -6,3 +6,4 @@
 {"format_version":1,"id":"18dc092f77229636438a03131c5343bd84226819798ae635","commits":["9d1384b2f3640b408e2a8ca9f7e83c579482a348"],"user_facing":false}
 {"format_version":1,"id":"18dc0b9cc32543dfeef31f76a422411caacabf35f52c740f","commits":["9f6320bd9ab15e05eb81a0b82e844a3e18ba4af1"],"user_facing":true,"description":"**The `--json` document follows strictcli 0.38: `interface_version` is 3 and the document carries an `output` member, and a malformed config file reports its position as `<path>: <line>:<column>:`.** Consumers reading `interface_version` or matching the old `line N, column M` wording must update.","type":"breaking"}
 {"format_version":1,"id":"18dc0b9fe574b1f3894f5d10f1ce400d982ad7642e28ccc7","commits":["59ba0e37ea6e6d7d3a197b3f56696f3d769ccb82"],"user_facing":false}
+{"format_version":1,"id":"18dc0ba6b00f2d7eb5b5cbaeb10e49bfac947ec9bc8debca","commits":["f5fc36a12b01562701fc1c1aceceed5d1bcb19e2"],"user_facing":false}
