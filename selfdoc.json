@@ -27,16 +27,26 @@
       "language": "go"
     }
   ],
-  "docs": "stricttools/docs/",
-  "output": "stricttools/.docs-cache/build/",
+  "docs": ".strictmetadata/docs/",
+  "output": ".strictmetadata/.docs-cache/build/",
   "base_url": "https://smmh.dev/dirstat",
   "root_files": [
-    "stricttools/docs/_README.md",
-    "stricttools/docs/_CLAUDE.md"
+    {
+      "template": ".strictmetadata/docs/_README.md",
+      "outputs": [
+        "README.md"
+      ]
+    },
+    {
+      "template": ".strictmetadata/docs/_CLAUDE.md",
+      "outputs": [
+        ".claude/CLAUDE.md"
+      ]
+    }
   ],
   "directives": {
-    "table-default-excludes": "stricttools/docs/_directives/default_excludes.py",
-    "table-text-extensions": "stricttools/docs/_directives/text_extensions.py"
+    "table-default-excludes": ".strictmetadata/docs/_directives/default_excludes.py",
+    "table-text-extensions": ".strictmetadata/docs/_directives/text_extensions.py"
   },
   "search_engine": "pagefind",
   "author": {
