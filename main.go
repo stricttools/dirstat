@@ -8,7 +8,7 @@
 package main
 
 import (
-	"github.com/smm-h/strictcli/go/strictcli"
+	"github.com/stricttools/strictcli/go/strictcli"
 )
 
 // newApp builds the fully-registered dirstat app. It is separate from main so

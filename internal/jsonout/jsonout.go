@@ -12,7 +12,7 @@ import (
 	"strconv"
 
 	"github.com/stricttools/dirstat/internal/scan"
-	"github.com/smm-h/strictcli/go/strictcli"
+	"github.com/stricttools/strictcli/go/strictcli"
 )
 
 // Selection reports which stats were selected via --stats. Unselected stats

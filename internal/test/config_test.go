@@ -96,7 +96,7 @@ func TestConfigFileErrors(t *testing.T) {
 		content string
 		wantErr []string
 	}{
-		{"malformed TOML", "exclude = [\nmethod =", []string{"line", "column"}},
+		{"malformed TOML", "exclude = [\nmethod =", []string{"dirstat.toml: 2:1: "}},
 		{"unknown key", "bogus = 1\n", []string{`"bogus"`, "sort_order"}},
 		{"rendering key", "colors = true\n", []string{`"colors"`, "rendering", "sort_order"}},
 		{"where key", "where = \"/x\"\n", []string{`"where"`, "positional"}},
@@ -123,14 +123,14 @@ func TestConfigFileErrors(t *testing.T) {
 	}
 
 	// Truncated mid-array at EOF: the parse error must carry a real,
-	// non-zero line/column position (R41). go-toml-edit < 0.2.2 reported
-	// "line 0, column 0" for unexpected-EOF errors.
+	// non-zero line:column position (R41). go-toml-edit < 0.2.2 reported a
+	// zero position for unexpected-EOF errors.
 	cfgPath := writeConfigFile(t, t.TempDir(), "exclude = [\"a\", \"b\"")
 	_, stderr, code := runDirstat(t, "scan", root, "--config", cfgPath)
 	if code != 2 {
 		t.Errorf("truncated at EOF: exit = %d, want 2 (stderr: %s)", code, stderr)
 	}
-	if !regexp.MustCompile(`line [1-9]`).MatchString(stderr) {
+	if !regexp.MustCompile(`dirstat\.toml: [1-9][0-9]*:[0-9]+: `).MatchString(stderr) {
 		t.Errorf("truncated at EOF: stderr %q must report a non-zero line position", stderr)
 	}
 

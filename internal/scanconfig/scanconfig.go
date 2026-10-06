@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/stricttools/dirstat/internal/scan"
-	tomledit "github.com/smm-h/go-toml-edit"
+	tomledit "github.com/stricttools/go-toml-edit"
 )
 
 // AllowedKeys is the exact set of keys a scan config file may contain
@@ -83,13 +83,13 @@ func Load(path string) (*Config, error) {
 		return nil, fmt.Errorf("config file %s: %v", path, err)
 	}
 
-	raw := map[string]interface{}{}
-	if err := tomledit.Unmarshal(data, &raw); err != nil {
+	raw, err := tomledit.Unmarshal[map[string]interface{}](data)
+	if err != nil {
 		return nil, fmt.Errorf("config file %s: %v", path, err)
 	}
 
-	cfg := &Config{values: make(map[string]interface{}, len(raw))}
-	for key, val := range raw {
+	cfg := &Config{values: make(map[string]interface{}, len(*raw))}
+	for key, val := range *raw {
 		if err := cfg.setKey(key, val); err != nil {
 			return nil, fmt.Errorf("config file %s: %v", path, err)
 		}

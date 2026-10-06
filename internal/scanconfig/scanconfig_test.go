@@ -5,6 +5,7 @@ import (
 	"os"
 	"path/filepath"
 	"reflect"
+	"regexp"
 	"strings"
 	"testing"
 )
@@ -126,8 +127,8 @@ func TestLoadMissingFile(t *testing.T) {
 func TestLoadMalformedTOML(t *testing.T) {
 	hygiene.Isolate(t, hygiene.Preserve(hygiene.GoPath, hygiene.GoModCache, hygiene.GoCache))
 	msg := loadErr(t, "exclude = [\nmethod =")
-	if !strings.Contains(msg, "line") || !strings.Contains(msg, "column") {
-		t.Errorf("parse error %q missing line/column position", msg)
+	if !regexp.MustCompile(`dirstat\.toml: [1-9][0-9]*:[1-9][0-9]*: `).MatchString(msg) {
+		t.Errorf("parse error %q missing the line:column position after the path", msg)
 	}
 	if !strings.Contains(msg, "dirstat.toml") {
 		t.Errorf("parse error %q missing the file path", msg)

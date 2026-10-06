@@ -11,7 +11,7 @@ import (
 	"github.com/stricttools/dirstat/internal/render"
 	"github.com/stricttools/dirstat/internal/scan"
 	"github.com/stricttools/dirstat/internal/scanconfig"
-	"github.com/smm-h/strictcli/go/strictcli"
+	"github.com/stricttools/strictcli/go/strictcli"
 	"golang.org/x/term"
 )
 

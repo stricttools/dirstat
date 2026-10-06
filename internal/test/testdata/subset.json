@@ -5,7 +5,8 @@
   "diagnostics": [],
   "dry_run": false,
   "exit_code": 0,
-  "interface_version": 2,
+  "interface_version": 3,
+  "output": null,
   "payload": {
     "groups": [
       {
