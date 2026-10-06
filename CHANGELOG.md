@@ -2,6 +2,15 @@
 
 # Changelog
 
+## 0.7.0
+
+The Go module path moves to github.com/stricttools/dirstat, and dirstat now builds on strictcli 0.38 and go-toml-edit 0.5 at their stricttools paths.
+
+### Breaking
+
+- **The Go module path moved to `github.com/stricttools/dirstat`.** The repository lives in the stricttools organization, so `github.com/smm-h/dirstat` is no longer this module's path: install with `go install github.com/stricttools/dirstat@v0`, and a program importing its packages changes its imports and `require` to the new path.
+- **The `--json` document follows strictcli 0.38: `interface_version` is 3 and the document carries an `output` member, and a malformed config file reports its position as `<path>: <line>:<column>:`.** Consumers reading `interface_version` or matching the old `line N, column M` wording must update.
+
 ## 0.6.2
 
 The tool describes itself with one sentence everywhere including --help, and its documentation moved onto selfdoc's .stricttools/ layout.

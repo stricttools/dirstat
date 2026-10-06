@@ -1,5 +1,5 @@
 {
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "Fast, single-binary directory statistics CLI: every file under a tree grouped by format, with counts, sizes, and lines of code, as a colored terminal table or as JSON",
   "source": [
     {
@@ -58,7 +58,7 @@
   },
   "versions": [
     {
-      "version": "0.6.2"
+      "version": "0.7.0"
     }
   ],
   "locales": [
