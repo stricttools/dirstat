@@ -23,8 +23,8 @@ requirement is numbered (R1, R2, ...) so audits can address them individually.
   pre-release hooks running `go vet ./...`, `go build -o /dev/null .`, and
   `go test ./... -race -count=1`. JSONL changelog in use from the first commit.
 - R4. selfdoc-managed root templates only: `selfdoc.json` with
-  `root_files: ["stricttools/docs/_README.md", "stricttools/docs/_CLAUDE.md"]`; no docs site, no deploy
-  config. Generated `README.md`/`CLAUDE.md` are committed and chmod 444.
+  `root_files` templates `.strictmetadata/docs/_README.md` and `.strictmetadata/docs/_CLAUDE.md`; no docs site, no deploy
+  config. Generated `README.md` and `.claude/CLAUDE.md` are committed and chmod 444.
 - R5. Version `0.1.0` in `VERSION`; binary version via `-X main.Version` ldflags
   with `debug.ReadBuildInfo()` fallback. The symbol name must match the one
   `.goreleaser.yml` injects: the linker silently ignores an `-X` naming a
