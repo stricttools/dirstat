@@ -108,7 +108,7 @@ By default `--exclude` uses a curated built-in list (`.git`, `node_modules`, `.v
 
 ```json
 {
-  "interface_version": 1,
+  "interface_version": 3,
   "app": "dirstat",
   "app_version": "0.1.0",
   "command": "scan",
